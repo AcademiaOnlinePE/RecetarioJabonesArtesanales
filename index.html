@@ -541,6 +541,18 @@
     body{font-size:16px;}
   }
 </style>
+<!-- Meta Pixel (conjunto de datos: Ventas WhatsApp - Recetario Jabones) -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1090941580538751');
+fbq('track','PageView');
+document.addEventListener('click',function(ev){var a=ev.target.closest&&ev.target.closest('a[href*="pay.hotmart.com"]');if(a){fbq('track','InitiateCheckout',{value:7,currency:'USD',content_name:'Recetario de Jabones Artesanales'});}});
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1090941580538751&ev=PageView&noscript=1" alt=""></noscript>
 </head>
 <body>
 
@@ -840,7 +852,7 @@
       <p class="countdown-title" data-promo>⏰ Precio promocional solo hasta el 30 de noviembre:</p>
       <div class="countdown" data-countdown="full" data-promo><div><b data-u="d">--</b><small>días</small></div><div><b data-u="h">--</b><small>horas</small></div><div><b data-u="m">--</b><small>min</small></div><div><b data-u="s">--</b><small>seg</small></div></div>
       <div class="offer-price">US$ 7 <small>pago único</small></div>
-      <p class="offer-sub" style="margin:4px 0 0;" data-promo>Desde el 1 de diciembre el precio sube a <b>US$ 10</b>.</p>
+      <p class="offer-sub" style="margin:4px 0 0;" data-promo>Después del 30 de noviembre el precio puede subir.</p>
       <p class="offer-sub">Lo recuperas vendiendo 2 o 3 jabones.</p>
       <a href="https://pay.hotmart.com/I107298060Y?off=w7ik8o5e&amp;checkoutMode=10" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Sí, quiero mi Recetario + bonos</a>
       <div class="guarantee">
